@@ -119,9 +119,12 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.left div span{
+.left div a{
     font-size: x-small;
     margin-right: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
 }
 .right div a{
     color: white;
