@@ -8,9 +8,18 @@
     padding: 2rem 0 0;
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    
 }
 header {
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%; 
+}
+main{
+    margin-top: 4rem;
 }
 nav {
     width: 920px;
@@ -37,7 +46,8 @@ nav .center {
     flex-grow: 1;
 }
 .container .card{
-    width: 32%;
+    flex-basis: 32%;
+    flex-grow: 1;
     margin-bottom: 3rem;
 }
 .container .card .img-card img{
